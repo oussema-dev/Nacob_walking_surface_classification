@@ -5,8 +5,8 @@
 ## Pre-requisites
 
 cd to the root folder and run the following commands:
-- `conda create -n env tensorflow`
-- `conda activate env`
+- `conda create -n nacob python=3.10 -y`
+- `conda activate nacob`
 - `conda install --y --file conda_requirements.txt`
 - `pip install -r pip_requirements.txt`
 
