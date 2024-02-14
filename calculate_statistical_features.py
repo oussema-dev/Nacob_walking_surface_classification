@@ -20,6 +20,8 @@ final_features_df = pd.DataFrame()
 current_class = None
 segment_rows = []
 
+print("Calculating statistical features...")
+
 # Iterate through each row in the DataFrame
 for index, row in df.iterrows():
     if current_class is None:

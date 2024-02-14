@@ -13,6 +13,8 @@ output_file = os.path.join(folder_path, data_dir, "concatenated_data.csv")
 # Initialize an empty DataFrame to store concatenated data
 concatenated_data = pd.DataFrame()
 
+print("Concatenating participant data...")
+
 # Iterate through each subfolder in the specified directory
 for subdir, _, files in os.walk(folder_path):
     # Check if there are CSV files in the current subfolder
