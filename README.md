@@ -1,6 +1,6 @@
 # Walking surface classification
 
-## Code support to a study using the Nacob dataset
+## Code support to a study using the Nacob dataset. More details are available on the published [paper](https://doi.org/10.1038/s41597-024-03683-5)
 
 ## Pre-requisites
 
